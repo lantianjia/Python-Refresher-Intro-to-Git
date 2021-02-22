@@ -13,7 +13,11 @@ plt.plot(x,y2,color="orange",lw=1)
 plt.legend(['y=sinx','y=cosx'])
 plt.show()
 
-
+y3 = np.tan(x)
+plt.plot(x,y3,color="blue")
+plt.title('plot of tangent')
+plt.legend(['y=tanx'])
+plt.show()
 
 
 
